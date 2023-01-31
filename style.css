@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     background: black;
     color: white;
     text-align: center;
@@ -7,9 +6,9 @@ body {
 }
 video {
     position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
+    left: -40vw;
+    bottom: 10vh;
+
 }
 main {
     position: fixed;
