@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+video {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+main {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    border: #fff 1px solid;
+    margin: 10px;
+}
+.soccer {
+    font-size: 100pt;
+    background: -webkit-linear-gradient( 90deg, #ffaa00 50%, rgb(255, 214, 109) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tournament {
+    font-size: 60pt;
+    color: #ffaa00;
+    background-color: black;
+    padding: 0px 5px;
+    border: #fff solid 1px;
+}
+.first {
+    background: linear-gradient(to top,black 50%, #ffaa00);
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: #fff solid 1px;
+}
+.container {
+    display: flex;
+}
+.container div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one, .three {
+    color: #ffaa00;
+    font-size: 25pt;
+}
+.two {
+    border: #fff solid 1px;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 25pt;
+}
+#ground {
+    background: #3c3c3c6b;
+    padding: 15px;
+    position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+    .soccer {
+        font-size: 50pt;
+    }
+    .tournament {
+        font-size: 30pt;
+    }
+}
